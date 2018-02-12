@@ -19,7 +19,7 @@ span.onclick = function() {
   modal.style.display = "none";
 }
 
-  $(".nav-item a").on('click', function(event) {
+  $(".nav-link").on('click', function(event) {
     if (this.hash !== "") {
       event.preventDefault();
       var hash = this.hash;
